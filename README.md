@@ -1,17 +1,30 @@
 # Predicting Employee Attrition Using Machine Learning  
-### Phase 2 – Development Draft
+### Final Research Implementation – Phase 3
 
 ## Project Overview
-This repository contains the Phase 2 development draft for a Computer Science project focused on predicting employee attrition using supervised machine learning techniques.
+This repository contains the **final implementation** of a Computer Science research project focused on predicting employee attrition using supervised machine learning techniques.
 
-The project investigates whether employee attrition can be modeled as a binary classification problem using structured human resources data. This repository represents the current development status and **does not** contain the final implementation.
+The project formulates employee attrition as a binary classification problem and evaluates multiple machine learning models to determine their predictive effectiveness.
+
+This repository includes:
+
+- Complete data preprocessing pipeline  
+- Exploratory Data Analysis (EDA)  
+- Model implementation and evaluation  
+- Reproducible Python code  
+- Documentation aligned with the final research report
 
 ---
 
-## Problem Description
-Employee attrition has significant organizational and economic implications. From a computer science perspective, attrition prediction can be formulated as a supervised learning task, where historical employee data is used to predict whether an employee is likely to leave an organization.
+## Research Objective
 
-The objective of this project is to explore baseline and ensemble machine learning models, evaluate their suitability for the task, and establish a foundation for further refinement in the final project phase.
+The objective of this study is to:
+
+- Determine whether supervised machine learning models can effectively predict employee attrition  
+- Compare linear and ensemble-based classification algorithms  
+- Analyze the trade-off between predictive performance and interpretability  
+
+The final research report (submitted separately in PDF format) provides theoretical background, literature review, methodology, empirical results, and critical reflection.
 
 ---
 
@@ -25,22 +38,38 @@ The dataset is **not included** in this repository due to licensing consideratio
 
 ---
 
-## Methods and Tools
+## Machine Learning Models Implemented
+
+The following supervised classification models were implemented and evaluated:
+
+- Logistic Regression (baseline model)  
+- Decision Tree Classifier  
+- Random Forest Classifier (ensemble method)  
+
+Model performance was evaluated using:
+
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+- Confusion matrices  
+
+The Random Forest model achieved the strongest overall predictive performance, consistent with ensemble learning theory.
+
+---
+
+## Tools and Technologies
+
 - **Programming Language:** Python  
-- **Environment:** Jupyter Notebook (Google Colab)  
+- **Environment:** Google Colab / Jupyter Notebook  
 - **Libraries:**
-  - pandas
-  - NumPy
-  - scikit-learn
-  - matplotlib
-  - seaborn
+  - pandas  
+  - NumPy  
+  - scikit-learn  
+  - matplotlib  
+  - seaborn  
 
-### Machine Learning Models Explored
-- Logistic Regression
-- Decision Tree
-- Random Forest
-
-These models are used to establish baseline performance and guide further development decisions.
+All models were implemented using the scikit-learn framework.
 
 ---
 
